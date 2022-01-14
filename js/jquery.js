@@ -181,7 +181,7 @@
       isPlainObject: function (e) {
         var t, n;
         return (
-          !(!e || "[object Object]" !== o.call(e)) &&
+          !(!e || "Message Sent" !== o.call(e)) &&
           (!(t = r(e)) ||
             ("function" ==
               typeof (n = v.call(t, "constructor") && t.constructor) &&
